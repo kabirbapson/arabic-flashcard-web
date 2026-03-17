@@ -100,3 +100,28 @@ with col3:
     if st.button("✅ I know"):
         mark_known()
         st.rerun()
+
+st.divider()
+
+whatsapp_url = "https://wa.me/2348084277233"
+
+st.markdown(
+    """
+    <div style="text-align:center;">
+        Built by Bappi |
+        <button style="
+                # background-color:#25D366;
+                # color:white;
+                padding:8px 16px;
+                border:none;
+                border-radius:15px;
+                font-size:14px;">
+                <a href="https://wa.me/2348084277233" target="_blank" style="color:#25D366;">
+            💬 WhatsApp
+        </a>
+            </button>
+        
+    </div>
+    """,
+    unsafe_allow_html=True
+)
